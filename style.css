@@ -189,9 +189,7 @@ img {
 }
 .contact {
   background: #111;
-  padding-left: 35em;
-  padding-top: 2em;
-  padding-bottom: 5em;
+  padding-left: 38em;
 }
 
 .contactInfo p {
@@ -203,8 +201,6 @@ img {
   min-width: 40px;
   padding-top: 4px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 24px;
 }
 .contactInfoBx .box .text {
@@ -225,6 +221,7 @@ img {
 }
 .contactInfoBx .boxSocial {
   display: flex;
+
   flex-direction: row;
   letter-spacing: 15px;
   padding-left: 60px;
@@ -232,5 +229,15 @@ img {
 .contactInfoBx .boxSocial .fa {
   color: #009e66;
   font-size: 42px;
-  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1em;
+}
+
+.footer a {
+  color: #009e66;
+  font-size: 12px;
 }
